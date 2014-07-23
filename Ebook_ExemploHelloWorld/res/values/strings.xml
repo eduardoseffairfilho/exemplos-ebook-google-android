@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exemplo Hello World</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="informe_o_seu_nome">Informe o seu nome:</string>
+    <string name="surpeenda_me">Surpeenda-me</string>
+    <string name="saudacao">Olá</string>
+    
+
+</resources>
