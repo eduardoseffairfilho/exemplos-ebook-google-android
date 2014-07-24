@@ -1,7 +1,6 @@
 package com.example.exemplomediastore;
 
 import java.io.File;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -16,7 +15,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		//setContentView(R.layout.activity_main);
 		
-		File dir1 = new File("/sdcard");
+		File dir1 = new File(getString(R.string.dir_sdcard));
 		File dir2 = null;
 		Log.d("Teste",  "Dir 1 existe?"+dir1.exists());
 		if (dir1.exists()) {
